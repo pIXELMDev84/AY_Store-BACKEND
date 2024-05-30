@@ -38,3 +38,4 @@ Route::delete('/panier/delete/{id}', [PanierController::class, 'removeFromPanier
 //commande(crer la commade /afficher la commande)
 Route::post('/order/create', [OrderController::class, 'createOrder']);
 Route::get('/getuserorder/{userId}', [OrderController::class, 'getUserOrders']);
+Route::get('/getuserorder/{userId}', [OrderController::class, 'getUserOrders']);
